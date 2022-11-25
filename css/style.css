@@ -1,0 +1,52 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body,
+section,
+h1{
+    margin: 0;
+}
+
+h1{
+
+}
+
+.menu{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu a{
+    display: block;
+    flex: 0 1 100px;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#accueil{
+    background-color: aquamarine;
+}
+#inscription{
+    background-color: rgb(255, 253, 127);
+}
+#galerie{
+    background-color: rgb(243, 115, 76);
+}
+#tableau{
+    background-color: rgb(200, 76, 211);
+}
+#video{
+    background-color: rgb(96, 70, 211);
+}
+#pied-page{
+    background-color: rgb(34, 192, 231);
+}
