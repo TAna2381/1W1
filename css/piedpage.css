@@ -1,0 +1,18 @@
+#pied-page{
+    background-image: url("../images/Academy.jpg");
+    background-size: cover;
+    color: black;
+    background-blend-mode: darken;
+}
+
+#pied-page .sociaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+  
+#pied-page .sociaux img{
+    padding: 10px;
+}
+

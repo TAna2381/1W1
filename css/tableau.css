@@ -1,0 +1,13 @@
+#tableau{
+    background-image: url("../images/MilkyWay.jpg");
+    background-size: cover;
+    color: white;
+    background-blend-mode: darken;
+}
+
+#tableau tr,
+td{
+    border: 6px solid black;
+    font-weight: bold;
+    text-align: center;
+}

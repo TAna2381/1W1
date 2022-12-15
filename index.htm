@@ -7,6 +7,13 @@
     <title>TP2</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tableau.css">
+    <link rel="stylesheet" href="css/galerie.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/accueil.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/piedpage.css">
 </head>
 <body>
     <!-- /////// Menu-->
@@ -20,50 +27,181 @@
     </nav>
     <!-- /////// Accueil-->
     <section id="accueil">
-        <h1>Accueil</h1>
+        <h1>TP2</h1>
+        <h2>Le meilleur de Trek</h2>
+        <h3>Auteur: Samuel Blais</h3>
+        <h4>1W1 - Mise en page Web | Technique d'intégration multimedia</h4>
+        <h5>Collège de Maisonneuve | Automne 2022</h5>
     </section>
     <!-- /////// Inscription-->
     <section id="inscription">
         <h1>Inscription</h1>
+        <form>
+          <label>Nom
+            <input
+              placeholder="Entrez votre nom"
+              type="text"
+              name=""
+              id="txtNom"
+            />
+          </label>
+          <label>Prénom
+            <input type="text" name="" id="txtPrenom" />
+          </label>
+          <label>Courriel
+            <input type="email" name="" id="txtEmail" />
+          </label>
+          <div class="langage">
+            <label for="html">HTML<input type="checkbox" name="" id="html"></label>
+            <label for="css">CSS<input type="checkbox" name="" id="css"></label>
+            <label for="js">JavaScript<input type="checkbox" name="" id="js"></label>
+            <label for="php">PHP<input type="checkbox" name="" id="php"></label>
+          </div>
+      
+        </form>
     </section>
     <!-- /////// Galerie-->
     <section id="galerie">
         <h1>Galerie</h1>
+        <h2>Les meilleurs de Starfleet</h2>
+        <figure class="fig__galerie">
+            <figure>
+                <img src="images/WilliamRiker.jpg" alt="Riker">
+                <figcaption>Commandant William Riker, USS Enterprise-D</figcaption>
+            </figure>
+            <figure>
+                <img src="images/TomParis.jpg" alt="Paris">
+                <figcaption>Lieutenant Tom Paris, USS Voyager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/TAna.jpg" alt="TAna">
+                <figcaption>Dr. T'Ana, USS Cerritos</figcaption>
+            </figure>
+            <figure>
+                <img src="images/McCoy.jpg" alt="McCoy">
+                <figcaption>Dr. Leonard McCoy, USS Enterprise</figcaption>
+            </figure>
+            <figure>
+                <img src="images/ChrisPike.jpg" alt="Pike">
+                <figcaption>Capitaine Christopher Pike, USS Enterprise</figcaption>
+            </figure>
+            <figure>
+                <img src="images/WorfDS9.jpg" alt="Worf">
+                <figcaption>Lt. Commandant Worf, USS Enterprise-D</figcaption>
+            </figure>
+        </figure>
     </section>
     <!-- /////// Tableau-->
     <section id="tableau">
         <h1>Tableau</h1>
+        <h2>Séries avec fin</h2>
         <!-- table>(tr>(td>lorem2)*3)*4 -->
         <table>
             <tr>
-                <td>Lorem, ipsum.</td>
-                <td>Vel, ipsum.</td>
-                <td>Eum, tempore.</td>
+                <td>Nom de série</td>
+                <td>Nombre de saisons</td>
+                <td>Date de début</td>
+                <td>Date de fin</td>
             </tr>
             <tr>
-                <td>Lorem, ipsum.</td>
-                <td>Reiciendis, fuga.</td>
-                <td>Nihil, sit!</td>
+                <td>"The Original Series"</td>
+                <td>3</td>
+                <td>8 septembre, 1966</td>
+                <td>3 juin, 1969</td>
             </tr>
             <tr>
-                <td>Lorem, ipsum.</td>
-                <td>Molestias, voluptates.</td>
-                <td>Dolore, tenetur.</td>
+                <td>"The Animated Series"</td>
+                <td>2</td>
+                <td>8 septembre, 1973</td>
+                <td>12 octobre, 1974</td>
             </tr>
             <tr>
-                <td>Lorem, ipsum.</td>
-                <td>Corporis, laboriosam?</td>
-                <td>Eaque, odio.</td>
+                <td>"The Next Generation"</td>
+                <td>7</td>
+                <td>28 septembre, 1987</td>
+                <td>23 mai, 1994</td>
+            </tr>
+            <tr>
+                <td>"Deep Space Nine"</td>
+                <td>7</td>
+                <td>4 janvier, 1993</td>
+                <td>31 mai, 1999</td>
+            </tr>
+            <tr>
+                <td>"Voyager"</td>
+                <td>7</td>
+                <td>16 janvier, 1995</td>
+                <td>23 mai, 2001</td>
+            </tr>
+            <tr>
+                <td>"Enterprise"</td>
+                <td>4</td>
+                <td>26 septembre, 2001</td>
+                <td>13 mai, 2005</td>
             </tr>
         </table>
     </section>
     <!-- /////// Vidéo-->
     <section id="video">
         <h1>Video</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/d1Li5YTBe-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     <!-- /////// Pied de page-->
     <section id="pied-page">
         <h1>Pied de page</h1>
+        <h2>Collège de Maisonneuve</h2>
+        <h3>Pour nous joindre:</h3>
+        <h4>3800, rue Sherbrooke Est | Montréal (Québec) H1X 2A2 | Téléphone: 514 254-7131</h4>
+        <div class="sociaux">
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=facebook&color=000000"
+              width="16"
+              height="16"
+              alt=""
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=github&color=000000"
+              width="16"
+              height="16"
+              alt=""
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=instagram&color=000000"
+              width="16"
+              height="16"
+              alt=""
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=messenger&color=000000"
+              width="16"
+              height="16"
+              alt=""
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=paypal&color=000000"
+              width="16"
+              height="16"
+              alt=""
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=twitter&color=000000"
+              width="16"
+              height="16"
+              alt=""
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=youtube&color=000000"
+              width="16"
+              height="16"
+              alt=""
+            />
+            <img
+              src="https://s2.svgbox.net/social.svg?ic=wikipedia&color=000000"
+              width="16"
+              height="16"
+              alt=""
+            />
+          </div>
     </section>
 </body>
 </html>

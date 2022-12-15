@@ -9,7 +9,7 @@ h1{
 }
 
 h1{
-
+    font-weight: bold;
 }
 
 .menu{
@@ -17,11 +17,14 @@ h1{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    font-style: italic;
 }
 
 .menu a{
     display: block;
     flex: 0 1 100px;
+    text-decoration: none;
+    color: white;
 }
 
 section{
@@ -34,9 +37,6 @@ section{
 
 #accueil{
     background-color: aquamarine;
-}
-#inscription{
-    background-color: rgb(255, 253, 127);
 }
 #galerie{
     background-color: rgb(243, 115, 76);
