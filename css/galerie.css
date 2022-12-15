@@ -6,13 +6,15 @@
     background-blend-mode: darken;
 }
 
-/*#galerie div.background{
-    opacity: 0.6;
+/*#galerie::before{
+    background-image: url("../images/starfleet.jpg");
+    background-size: cover;
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+    opacity: 0.75;
 }*/
 
 .fig__galerie {
@@ -21,12 +23,12 @@
     flex-wrap: wrap;
 }
 
+/*h1,
+h2,
 .fig__galerie figcaption{
-    color: gray;
-}
-
-/*.fig__galerie img{
-    filter: sepia(49%) brightness(92%) hue-rotate(140deg) saturate(175%) contrast(127%);
-    -webkit-filter: sepia(49%) brightness(92%) hue-rotate(140deg) saturate(175%) contrast(127%);
-    -moz-filter: sepia(49%) brightness(92%) hue-rotate(140deg) saturate(175%) contrast(127%);
+    position: relative;
 }*/
+
+.fig__galerie figcaption{
+    color: white;
+}
